@@ -33,4 +33,4 @@ BEGIN
 END;
 $$;
 
-COMMENT ON FUNCTION asset_address_list_explicit IS 'Get the list of all addresses containing a specific asset';
+COMMENT ON FUNCTION asset_address_list_explicit IS 'Get the list of all addresses containing a specific asset'  To use, load this code into the cexplorer database. Then you can query "select asset_address_list_explicit ('policyID', 'AssetName') ;
