@@ -33,4 +33,4 @@ BEGIN
 END;
 $$;
 
-COMMENT ON FUNCTION asset_address_list_wildcard IS 'Get the list of all addresses containing a asset name that starts with';
+COMMENT ON FUNCTION asset_address_list_wildcard IS 'Get the list of all addresses containing a asset name that starts with';   To use, load this code into the cexplorer database. Then you can query "select asset_address_list_wildcard ('policyID', 'PartialAssetName%') ;
